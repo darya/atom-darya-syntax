@@ -1,0 +1,17 @@
+{
+	"name": "darya-syntax",
+	"theme": "syntax",
+	"version": "1.0.0",
+	"description": "Darya's syntax theme for Atom.",
+	"keywords": [
+		"darya",
+		"syntax",
+		"theme",
+		"atom"
+	],
+	"repository": "https://github.com/darya/syntax",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	}
+}

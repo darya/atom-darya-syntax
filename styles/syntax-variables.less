@@ -1,0 +1,49 @@
+@import "colors";
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// General colors
+@syntax-text-color: @very-light-gray;
+@syntax-cursor-color: @light-gray;
+@syntax-selection-color: darken(@purple, 30%);
+@syntax-background-color: @very-dark-gray;
+
+// Theme colors
+@syntax-string-color: @light-orange;
+@syntax-escape-color: @blue;
+@syntax-class-color: @syntax-string-color;
+@syntax-regexp-color: @syntax-string-color;
+@syntax-builtin-color: @syntax-string-color;
+@syntax-variable-color: @salmon;
+@syntax-function-color: @blue;
+@syntax-constant-color: @orange;
+@syntax-type-color: @purple;
+@syntax-modifier-color: @purple;
+@syntax-operator-color: @syntax-text-color;
+@syntax-operator-logical-color: @blue;
+@syntax-keyword-color: @purple;
+@syntax-keyword-new-color: @syntax-keyword-color;
+@syntax-annotation-color: @syntax-keyword-color;
+@syntax-special-color: @light-blue;
+
+// Guide colors
+@syntax-wrap-guide-color: @dark-gray;
+@syntax-indent-guide-color: fade(@gray, 25%);
+@syntax-invisible-character-color: @gray;
+
+// For find and replace markers
+@syntax-result-marker-color: @light-gray;
+@syntax-result-marker-color-selected: white;
+
+// Gutter colors
+@syntax-gutter-text-color: @very-light-gray;
+@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-background-color: @dark-gray;
+@syntax-gutter-background-color-selected: @gray;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;

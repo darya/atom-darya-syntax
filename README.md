@@ -6,9 +6,12 @@ Darya's syntax theme for the Atom text editor.
 
 ```php
 <?php
-use Darya;
-use Darya\Theme\Flavour;
+use Darya\Theme;
 
-$theme = new Darya\Theme(Flavour::DARK);
+$theme = new Theme(Theme\Flavour::DARK);
 $theme->display();
 ```
+
+Inspired by a blend of [this colour palette](http://www.colourlovers.com/palette/1452889/Make_You_Change)
+and the well known [Tomorrow Night](https://github.com/chriskempson/tomorrow-theme)
+theme.

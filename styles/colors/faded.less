@@ -1,0 +1,21 @@
+@import "base";
+
+@syntax-desaturation: 8.6%;
+
+@very-light-gray: darken(@base-very-light-gray, @syntax-desaturation / 2);
+@light-gray: darken(@base-light-gray, @syntax-desaturation / 4);
+@gray: @base-gray;
+@dark-gray: lighten(@base-dark-gray, @syntax-desaturation / 4);
+@very-dark-gray: lighten(@base-very-dark-gray, @syntax-desaturation / 2);
+
+@cyan: desaturate(@base-cyan, @syntax-desaturation);
+@blue: desaturate(@base-blue, @syntax-desaturation);
+@light-blue: desaturate(@base-light-blue, @syntax-desaturation);
+@pink: desaturate(@base-pink, @syntax-desaturation);
+@purple: desaturate(@base-purple, @syntax-desaturation);
+@green: desaturate(@base-green, @syntax-desaturation);
+@lime: desaturate(@base-lime, @syntax-desaturation);
+@red: desaturate(@base-red, @syntax-desaturation);
+@orange: desaturate(@base-orange, @syntax-desaturation * 1.4);
+@salmon: desaturate(@base-salmon, @syntax-desaturation * 1.4);
+@light-orange: desaturate(@base-light-orange, @syntax-desaturation * 1.4);

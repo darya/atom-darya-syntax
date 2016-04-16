@@ -16,8 +16,8 @@ Inspired by a blend of [this colour palette](http://www.colourlovers.com/palette
 and the well known [Tomorrow Night](https://github.com/chriskempson/tomorrow-theme)
 theme.
 
-![A screenshot of some PHP using the Darya syntax theme](screenshot-php.png?raw=true "PHP")
+![A screenshot of some PHP using the Darya syntax theme](https://raw.github.com/darya/syntax/master/screenshot-php.png "PHP")
 
-![A screenshot of some JavaScript using the Darya syntax theme](screenshot-js.png?raw=true "JavaScript")
+![A screenshot of some JavaScript using the Darya syntax theme](https://raw.github.com/darya/syntax/master/screenshot-js.png "JavaScript")
 
-![A screenshot of some LESS using the Darya syntax theme](screenshot-less.png?raw=true "LESS")
+![A screenshot of some LESS using the Darya syntax theme](https://raw.github.com/darya/syntax/master/screenshot-less.png "LESS")
